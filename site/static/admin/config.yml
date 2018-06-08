@@ -1,5 +1,10 @@
 backend:
   name: git-gateway
+  repo: unteem/action-droits-democratie # Path to your GitLab repository
+  auth_type: implicit  # Required for implicit grant
+  app_id: 9a05c30bc6d73a143570928f70f61ff058737c048d435b87346aab4924a9ae96 # Application ID from your GitLab settings
+  api_root: https://git.indie.host/api/v4
+  auth_url: https://git.indie.host/oauth/authorize
   
 media_folder: "site/static/img" # Folder where user uploaded files should go
 public_folder: "img"
