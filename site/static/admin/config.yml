@@ -1,5 +1,4 @@
 backend:
-<<<<<<< HEAD
   name: gitlab
   repo: Tim/action-droits-democratie # Path to your GitLab repository
   auth_type: implicit  # Required for implicit grant
